@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* CSS for navigation bar */
+        nav {
+            background-color: #333; /* Dark background color for the navigation bar */
+            color: #fff; /* White text color */
+            text-align: center; /* Center-align the links */
+            padding: 20px 0; /* Add padding above and below the links */
+            margin-bottom: 20px; /* Add margin below the navigation bar */
+        }
+        nav a {
+            font-size: 20px; /* Increase font size of navigation links */
+            text-decoration: none; /* Remove underline from links */
+            color: #fff; /* White text color for links */
+            margin: 0 10px; /* Add margin between links */
+        }
+        /* CSS for content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* CSS for form */
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* CSS for social media icons */
+        .social-media {
+            text-align: center;
+        }
+        .social-media a {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #333;
+        }
+        /* CSS for map */
+        .map {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="page2.html">Page 2</a> |
+        <a href="page3.html">Page 3</a> |
+        <a href="page4.html">Page 4</a> |
+        <a href="page5.html">Page 5</a> |
+        <a href="citation.html">Citation Page</a>
+    </nav>
+    
+    <!-- Content -->
+    <div class="container">
+        <h1>Contact Us</h1>
+        
+        <!-- Feedback form -->
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <!-- Social media links -->
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61554366764364">Facebook</a>
+            <a href="https://twitter.com/elonmusk">Twitter</a>
+            <a href="https://www.instagram.com/elon/">Instagram</a>
+        </div>
+        
+        <!-- Clickable map -->
+        <h1>Office Location: </h1>
+        <div class="map">
+            <p> 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14037.508372120907!2d-83.08161303146582!3d42.299382820882805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2d77c6ec4bef%3A0x1a44f1192a4e41ee!2sUniversity%20of%20Windsor!5e0!3m2!1sen!2sca!4v1711922118187!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+            
+        </div>
+    </div>
+</body>
+</html>
